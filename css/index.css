@@ -1,0 +1,86 @@
+:root {
+    --theme-color: #2ee279;
+    --theme-color-dim: #27bd65;
+    --theme-color-rgb: 46,226,121;
+    --primary-color: #333333;
+    --secondary-color: #777777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--primary-color);
+    /* background: #fafafa; */
+    /* font-family: 'Work Sans', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+
+.logo {
+    width: 3rem;
+}
+
+.nav-item, .nav-item .btn {
+    text-transform: uppercase;
+}
+
+.nav-link {
+    color: var(--theme-color);
+}
+
+.nav-link:hover {
+    color: var(--theme-color-dim);
+}
+
+.std-input {
+    padding: 8px 0 4px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    transition: border-bottom-color 0.15s;
+}
+
+.std-input:focus {
+    border-bottom-color: var(--theme-color);
+}
+
+section {
+    padding-top: 80px;
+}
+
+.hero-heading {
+    font-size: 2.75rem;
+}
+
+/* .hero-image {
+    background-image: url('../assets/images/hero-1.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: contain;
+} */
+
+.subscription {
+    background: rgba(var(--theme-color-rgb), 0.325);
+}
+
+.footer {
+    background: #eee;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hero-heading {
+        font-size: 3.25rem;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .hero-heading {
+        font-size: 3.75rem;
+    }
+}

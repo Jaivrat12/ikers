@@ -1,0 +1,50 @@
+.text-primary {
+    --bs-primary-rgb: var(--theme-color-rgb);
+}
+
+.form-control:focus {
+    border-color: var(--theme-color);
+    box-shadow: 0 0 0 0.25rem rgb(var(--theme-color-rgb), 25%);
+}
+
+.btn {
+    font-weight: 500;
+}
+
+/* .btn {
+    --bs-btn-color: var(--theme-color);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: var(--theme-color);
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: var(--theme-color);
+    --bs-btn-active-border-color: var(--theme-color);
+    --bs-btn-focus-shadow-rgb: var(--theme-color-rgb);
+} */
+
+.btn-outline-primary {
+    --bs-btn-color: var(--theme-color);
+    --bs-btn-border-color: var(--theme-color);
+    --bs-btn-hover-bg: var(--theme-color);
+    --bs-btn-hover-border-color: var(--theme-color);
+    --bs-btn-active-bg: var(--theme-color);
+    --bs-btn-active-border-color: var(--theme-color);
+    --bs-btn-focus-shadow-rgb: var(--theme-color-rgb);
+}
+
+.btn-primary {
+    --bs-btn-color: white;
+    --bs-btn-bg: var(--theme-color);
+    --bs-btn-border-color: var(--theme-color);
+    --bs-btn-hover-bg: var(--theme-color-dim);
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-border-color: var(--theme-color-dim);
+    --bs-btn-active-bg: var(--theme-color);
+    --bs-btn-active-border-color: var(--theme-color);
+    --bs-btn-focus-shadow-rgb: var(--theme-color-rgb);
+    --bs-btn-disabled-bg: var(--theme-color);
+    --bs-btn-disabled-border-color: var(--theme-color);
+}
+
+/* .navbar-toggler:focus {
+    box-shadow: 0 0 0 0.25rem rgb(var(--theme-color-rgb), 25%);
+} */
